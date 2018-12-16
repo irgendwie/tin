@@ -301,7 +301,7 @@ class NetflixTitle {
      */
     static sortExpiringTitles(moment, titles) {
         const mapped = titles.map(title => {
-            const date = moment(title.availabilityEndDateNear, "l");
+            const date = moment(title.availabilityEndDateNear, "DD/MM/YYYY");
             title.tinExpireDate = date;
             return title;
         });

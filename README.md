@@ -17,7 +17,7 @@ Improve your Netflix experience by:
 
 ## Installation
 
-By opening [tin.user.js](https://github.com/ignaeche/tin/raw/master/tin.user.js), your userscript manager will prompt you to install the script from the master branch.
+By opening [tin.user.js](https://github.com/irgendwie/tin/raw/master/tin.user.js), your userscript manager will prompt you to install the script from the master branch.
 
 You can also open the [script](tin.user.js), inspect the code and select **Raw**. This will also make your userscript manager prompt you for installation.
 

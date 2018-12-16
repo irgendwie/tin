@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tiny Improvements for Netflix (TIN)
-// @namespace    https://github.com/ignaeche
-// @version      1.15.2
+// @namespace    https://github.com/irgendwie
+// @version      1.15.3
 // @description  Improve Netflix by viewing expiring titles at the top of your list, adding search links and more...
 // @author       Ignacio
 // @match        http://*.netflix.com/*
@@ -16,12 +16,12 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/i18next/11.5.0/i18next.min.js#sha256-OkYwGDArM5E/cUjqyUWhWooD5cUY3HmiwTQE9kiKa/s=
 // @require      https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js#sha256-VrmtNHAdGzjNsUNtWYG55xxE9xDTz4gF63x/prKXKH0=
 // @require      https://cdnjs.cloudflare.com/ajax/libs/moment-duration-format/2.2.2/moment-duration-format.min.js#sha256-bXC/nhRjq/J7K4hnL8yvthqXkskSKOsZNfrLgXBigYg=
-// @updateURL    https://github.com/ignaeche/tin/raw/master/tin.user.js
-// @downloadURL  https://github.com/ignaeche/tin/raw/master/tin.user.js
-// @supportURL   https://github.com/ignaeche/tin/issues
+// @updateURL    https://github.com/irgendwie/tin/raw/master/tin.user.js
+// @downloadURL  https://github.com/irgendwie/tin/raw/master/tin.user.js
+// @supportURL   https://github.com/irgendwie/tin/issues
 // ==/UserScript==
 
-// Tested on Chrome 68+ and Tampermonkey
+// Tested on Firefox 64 and Violentmonkey
 
 /**
  * Wrap Netflix's Falcor pathEvaluator get/calls
